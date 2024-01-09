@@ -18,3 +18,47 @@ h1 {
 ul {
     list-style-type: none;
 }
+
+li {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    width: 7rem;
+    height: 7rem;
+    background-color: #1389B2;
+    text-align: center;
+    box-shadow: 1px 1px 5px #dedede;
+    line-height: 100px;
+}
+
+
+.container-box {
+    margin-top: 20px;
+}
+
+ul.numbers-created {
+    padding: 60px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+
+li.fizz {
+    background-color: #0cd6a1;
+    font-weight: 500;
+    color: black;
+}
+
+li.buzz {
+    background-color: #ffd166;
+    font-weight: 500;
+    color: black;
+}
+
+li.fizzbuzz {
+    background-color: #f0466f;
+    font-weight: 500;
+    color: black;
+}
