@@ -4,7 +4,17 @@
     box-sizing: border-box;
 }
 
-main {
+body {
     background-color: #083b4dff;
+    font-family: 'Ubuntu', sans-serif;
 }
 
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 100px;
+}
+
+ul {
+    list-style-type: none;
+}
